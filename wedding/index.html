@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+
+  <!-- Title & Viewport -->
+  <title>Undangan Pernikahan Bariz & Rani</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Basic SEO -->
+  <meta name="description" content="Undangan pernikahan Bariz & Rani. Pernikahan sederhana dalam suasana hangat bersama keluarga terdekat.">
+
+  <!-- Open Graph / WhatsApp -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Undangan Pernikahan Bariz & Rani">
+  <meta property="og:description" content="Dengan penuh rasa syukur, kami mengundang Bapak/Ibu/Saudara/i untuk menjadi saksi pernikahan kami.">
+  <meta property="og:url" content="https://bariz-rani-wedding-invitation.netlify.app/">
+  <meta property="og:site_name" content="Bariz & Rani">
+  <meta property="og:image" content="https://bariz-rani-wedding-invitation.netlify.app/assets/img/cover-share.jpg">
+
+  <!-- Twitter Card (opsional, tapi aman) -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Undangan Pernikahan Bariz & Rani">
+  <meta name="twitter:description" content="Undangan pernikahan Bariz & Rani.">
+  <meta name="twitter:image" content="https://bariz-rani-wedding-invitation.netlify.app/assets/img/cover-share.jpg">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=Playfair+Display:wght@500;700&display=swap" rel="stylesheet">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="assets/css/main.css">
+  <link rel="stylesheet" href="assets/css/layout.css">
+  <link rel="stylesheet" href="assets/css/animations.css">
+  <link rel="stylesheet" href="assets/css/responsive.css">
+</head>
+
+<body>
+  <!-- MATRIX BACKGROUND -->
+  <canvas id="matrix-canvas" class="matrix-canvas"></canvas>
+
+  <!-- SCANLINE OVERLAY -->
+  <div class="scanlines-overlay">
+    <div class="scanline"></div>
+  </div>
+
+  <!-- GRID OVERLAY -->
+  <div class="grid-overlay"></div>
+
+  <!-- FLASH & GLOBAL OVERLAY -->
+  <div id="flash-overlay" class="flash-overlay"></div>
+  <div class="global-bg-overlay"></div>
+
+  <!-- NAVBAR -->
+  <header class="main-header">
+    <div class="logo-area">
+      <div class="logo-triangle glitch" data-glitch="▲">
+        ▲
+      </div>
+      <span class="logo-text">Illuminati Protocol</span>
+    </div>
+    <nav class="main-nav">
+      <a href="#cover">Cover</a>
+      <a href="#story">Story</a>
+      <a href="#profile">Profile</a>
+      <a href="#timeline">Timeline</a>
+      <a href="#map">Map</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#rsvp">RSVP</a>
+      <a href="#gift">Amplop</a>
+    </nav>
+  </header>
+
+  <!-- 1. LANDING / ACCESS REQUIRED -->
+  <section id="landing" class="section landing-section">
+    <div class="terminal-card">
+      <div class="terminal-header">
+        <span class="dot red"></span>
+        <span class="dot yellow"></span>
+        <span class="dot green"></span>
+        <span class="terminal-title">Illuminati Cyber Ritual Protocol v.XI</span>
+      </div>
+      <div class="terminal-body">
+        <pre id="terminal-typing"></pre>
+        <button id="btn-decrypt" class="btn-primary glitch" data-glitch="DECRYPT INVITATION">
+          DECRYPT INVITATION
+        </button>
+        <p class="terminal-footer">
+          Unauthorized access is strictly prohibited by the Order of Light.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- 2. COVER + COUNTDOWN -->
+  <section id="cover" class="section cover-section reveal">
+    <div class="cover-content">
+      <div class="cover-text">
+        <h1 class="cover-title glitch" data-glitch="THE ENCRYPTED UNION">
+          THE ENCRYPTED UNION
+        </h1>
+        <h2 class="cover-subtitle">
+          of <span class="couple-names">Bariz Abid Anwari</span> &amp; <span class="couple-names">Fauzia Khaerani</span>
+        </h2>
+        <p class="cover-description">
+          Di bawah cahaya simbol kuno dan jaringan rahasia yang tak terlihat, dua jiwa dipanggil untuk menyatu
+          dalam sebuah perjanjian abadi, disembunyikan di antara baris kode dan cahaya Illuminati.
+        </p>
+
+        <div class="countdown-container">
+          <div class="countdown-label">EVENT COUNTDOWN INITIALIZED</div>
+          <div id="countdown">
+            <div class="time-box">
+              <span id="days">00</span>
+              <span class="label">HARI</span>
+            </div>
+            <div class="time-box">
+              <span id="hours">00</span>
+              <span class="label">JAM</span>
+            </div>
+            <div class="time-box">
+              <span id="minutes">00</span>
+              <span class="label">MENIT</span>
+            </div>
+            <div class="time-box">
+              <span id="seconds">00</span>
+              <span class="label">DETIK</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="cover-visual">
+        <div class="holo-gate" data-parallax data-speed="0.3">
+          <div class="holo-eye"></div>
+        </div>
+        <div class="couple-photo-frame">
+          <img src="assets/img/couples/2.jpg" alt="Couple"
+               class="couple-photo glitch-img">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 3. STORY / ORIGIN LOG FILE -->
+  <section id="story" class="section story-section reveal">
+    <div class="section-inner">
+      <h2 class="section-title">[LOG ENTRY: ORIGIN OF CONNECTION]</h2>
+      <div class="story-card">
+        <pre class="story-terminal">
+Timestamp: 2021-02
+Location: Confidential Spiritual Node
+Status: Two souls connected.
+
+Entry Notes:
+Dalam suasana dunia yang berubah dan tidak pasti, dua individu bertemu di sebuah ruang pembelajaran
+spiritual yang tenang—dipandu oleh guru dan perjalanan yang sama. Dari energi yang selaras,
+percakapan dan perjalanan batin memantik resonansi yang lebih dalam.
+
+2025-01 | Engagement Protocol Activated
+Setelah menjalani banyak proses, keputusan besar ditulis dalam lembar kehidupan mereka: pertunangan.
+
+2026-02 | Sacred Union Scheduled
+Dengan restu keluarga dan cahaya yang menerangi perjalanan, perjanjian abadi siap dilakukan.
+
+End of file.
+        </pre>
+      </div>
+    </div>
+  </section>
+
+  <!-- 4. PROFILE / AGENT IDENTIFICATION -->
+  <section id="profile" class="section profile-section reveal">
+    <div class="section-inner">
+      <h2 class="section-title">IDENTITY VERIFICATION REQUIRED</h2>
+      <div class="profile-grid">
+        <div class="agent-card">
+          <h3 class="agent-title">AGENT A – Bariz Abid Anwari</h3>
+          <pre class="agent-data">
+> Status: Authorized
+> Role: Protector, Visionary, Signal Bearer
+> Attributes: Loyal, Calm, Strong-willed
+> Connection: 99.7% Sync Stability
+          </pre>
+        </div>
+        <div class="agent-card">
+          <h3 class="agent-title">AGENT B – Fauzia Khaerani</h3>
+          <pre class="agent-data">
+> Status: Authorized
+> Role: Lightkeeper, Healer, Soul Alchemist
+> Attributes: Compassionate, Insightful, Resilient
+> Connection: 99.7% Sync Stability
+          </pre>
+        </div>
+      </div>
+      <p class="profile-tagline">
+        Two codes merged into one sacred frequency.
+      </p>
+    </div>
+  </section>
+
+  <!-- 5. MISSION TIMELINE / ACARA -->
+  <section id="timeline" class="section timeline-section reveal">
+    <div class="section-inner">
+      <h2 class="section-title">MISSION TIMELINE – ACCESS LEVEL: PRIVATE</h2>
+      <div class="timeline-grid">
+        <div class="timeline-item">
+          <h3>CEREMONY INITIATION</h3>
+          <p>Time: 07:00 WIB</p>
+          <p>Location: Masjid Al-Barkah Lemahabang Cirebon</p>
+          <p class="notes">Opening of the Illuminated Gate.</p>
+        </div>
+        <div class="timeline-item">
+          <h3>SACRED UNION RITUAL</h3>
+          <p>Time: 08:00 WIB</p>
+          <p>Location: Masjid Al-Barkah Lemahabang Cirebon</p>
+          <p class="notes">Formal activation of the Eternal Covenant.</p>
+        </div>
+        <div class="timeline-item">
+          <h3>CELEBRATION PROTOCOL</h3>
+          <p>Time: 10:00 WIB - 14:00 WIB</p>
+          <p>Location: Aula Masjid Al-Barkah Lemahabang Cirebon</p>
+          <p class="notes">Sharing joy, light, and encrypted blessings.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 6. MAP / RITUAL SITE -->
+  <section id="map" class="section map-section reveal">
+    <div class="section-inner">
+      <h2 class="section-title">SATELLITE COORDINATE LOCKED</h2>
+      <p class="map-description">
+        Lokasi ritual suci telah terdeteksi melalui satelit internal Ordo Cahaya.
+        Ikuti penanda cahaya untuk mencapai tempat penyatuan.
+      </p>
+      <div class="map-frame">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3961.492618401086!2d108.62978057499566!3d-6.831383793166562!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e6f04c67d440d4f%3A0xa361a3e7354d6b1!2sMasjid%20Al%20-%20Barkah!5e0!3m2!1sid!2sid!4v1764127515045!5m2!1sid!2sid"
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+      </div>
+      <a href="https://maps.app.goo.gl/2MdpiADAfnc2Q2cj8" target="_blank" class="btn-secondary">
+        OPEN IN SECURE NAVIGATION
+      </a>
+    </div>
+  </section>
+
+  <!-- 7. MINI GALLERY -->
+  <section id="gallery" class="section gallery-section reveal">
+    <div class="section-inner">
+      <h2 class="section-title">MEMORY ARCHIVE</h2>
+      <p class="gallery-description">Encrypted memories captured before the sacred union.</p>
+
+      <div class="gallery-grid">
+        <img src="assets/img/gallery/1.png" class="gallery-item" alt="Foto 1">
+        <img src="assets/img/gallery/2.png" class="gallery-item" alt="Foto 2">
+        <img src="assets/img/gallery/3.png" class="gallery-item" alt="Foto 3">
+        <img src="assets/img/gallery/4.jpg" class="gallery-item" alt="Foto 4">
+        <img src="assets/img/gallery/5.jpg" class="gallery-item" alt="Foto 5">
+        <img src="assets/img/gallery/5.jpg" class="gallery-item" alt="Foto 6">
+      </div>
+    </div>
+  </section>
+
+  <!-- LIGHTBOX POPUP -->
+  <div id="lightbox" class="lightbox">
+    <img id="lightbox-img" alt="Preview">
+  </div>
+
+  <!-- 8. RSVP / CONFIRM ACCESS LEVEL -->
+  <section id="rsvp" class="section rsvp-section reveal">
+    <div class="section-inner">
+      <h2 class="section-title">ACCESS AUTHORIZATION</h2>
+      <p class="rsvp-description">
+        Untuk memasuki gerbang ritual dan menjadi saksi penyatuan, mohon konfirmasi status kehadiran Anda.
+      </p>
+      <form id="rsvp-form" class="rsvp-form">
+        <div class="form-row">
+          <label for="name">Nama</label>
+          <input type="text" id="name" name="name" required placeholder="Masukkan nama Anda">
+        </div>
+        <div class="form-row">
+          <label for="guests">Jumlah Tamu</label>
+          <input type="number" id="guests" name="guests" min="1" value="1" required>
+        </div>
+        <div class="form-row">
+          <label for="status">Status Kehadiran</label>
+          <select id="status" name="status" required>
+            <option value="">Pilih salah satu</option>
+            <option value="accept">ACCEPT MISSION</option>
+            <option value="decline">DECLINE</option>
+          </select>
+        </div>
+		<div class="form-row">
+  <label for="message">Ucapan / Pesan</label>
+  <textarea id="message" name="message" rows="3"
+    placeholder="Tulis ucapan untuk mempelai (opsional)"></textarea>
+</div>
+
+        <button type="submit" class="btn-primary glitch" data-glitch="SEND ENCRYPTED RESPONSE">
+          SEND ENCRYPTED RESPONSE
+        </button>
+        <p id="rsvp-message" class="rsvp-message"></p>
+      </form>
+      <p class="rsvp-footer">
+        Your response will be encrypted and logged into the Eternal Archive.
+      </p>
+    </div>
+  </section>
+
+  <!-- 9. AMPLOP DIGITAL / DIGITAL VAULT -->
+  <!-- === PAYMENT: ILLUMINATI VAULT (PASTE INTO YOUR MAIN HTML) === -->
+<section id="gift" class="section payment-illuminati-section">
+    <div class="section-inner payment-illuminati-container">
+      <h2 class="section-title" data-text="DIGITAL VAULT ACCESS">DIGITAL VAULT ACCESS</h2>
+      <p class="gift-desc">Akses node ritual untuk melakukan transfer energi digital.</p>
+
+      <div class="tri-grid">
+        <!-- DANA -->
+        <div class="tri-card" data-name="Bariz Abid Anwari" data-number="089876543210">
+          <div class="tri-frame">
+            <div class="tri-eye-wrap">
+              <img class="bank-logo" src="assets/img/paymen/dana.png" data-bank="DANA" alt="DANA Logo">
+            </div>
+          </div>
+          <div class="tri-meta" data-text="DANA">DANA</div>
+          <small class="tri-type">E-Wallet</small>
+
+          <div class="tri-pop">
+            <pre class="tri-terminal">> ACCESSING VAULT NODE…
+> OWNER: Bariz Abid Anwari
+> ACCOUNT_NUMBER: 0898 7654 3210</pre>
+            <div class="tri-actions">
+              <button class="tri-copy">COPY KEY</button>
+              <div class="tri-success">KEY COPIED ✓</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- MANDIRI -->
+        <div class="tri-card" data-name="Bariz Abid Anwari" data-number="1400012345678">
+          <div class="tri-frame">
+            <div class="tri-eye-wrap">
+              <img class="bank-logo" src="assets/img/paymen/mandiri.png" data-bank="MANDIRI" alt="Mandiri Logo">
+            </div>
+          </div>
+          <div class="tri-meta" data-text="MANDIRI">MANDIRI</div>
+          <small class="tri-type">Bank Transfer</small>
+
+          <div class="tri-pop">
+            <pre class="tri-terminal">> ACCESSING VAULT NODE…
+> OWNER: Bariz Abid Anwari
+> ACCOUNT_NUMBER: 1400 0123 4567 8</pre>
+            <div class="tri-actions">
+              <button class="tri-copy">COPY KEY</button>
+              <div class="tri-success">KEY COPIED ✓</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- BNI -->
+        <div class="tri-card" data-name="Bariz Abid Anwari" data-number="0091234567">
+          <div class="tri-frame">
+            <div class="tri-eye-wrap">
+              <img class="bank-logo" src="assets/img/paymen/bni.png" data-bank="BNI" alt="BNI Logo">
+            </div>
+          </div>
+          <div class="tri-meta" data-text="BNI">BNI</div>
+          <small class="tri-type">Bank Transfer</small>
+
+          <div class="tri-pop">
+            <pre class="tri-terminal">> ACCESSING VAULT NODE…
+> OWNER: Bariz Abid Anwari
+> ACCOUNT_NUMBER: 0091 234 567</pre>
+            <div class="tri-actions">
+              <button class="tri-copy">COPY KEY</button>
+              <div class="tri-success">KEY COPIED ✓</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- (Optional) SEABANK: duplicate block jika perlu -->
+      </div>
+    </div>
+  </section>
+</section>
+<!-- === END PAYMENT SECTION === -->
+
+
+  <!-- 10. FOOTER / END OF TRANSMISSION -->
+  <footer id="footer" class="section footer-section reveal">
+    <div class="section-inner">
+      <h2 class="section-title">TRANSMISSION COMPLETE</h2>
+      <p class="footer-text">
+        Terima kasih telah menjadi bagian dari perjalanan kami.
+        Semoga cahaya pengetahuan, cinta, dan kedamaian selalu menyertai langkah kita semua.
+      </p>
+      <pre class="footer-terminal">
+> CONNECTION TERMINATED
+> May the Light Guide You
+      </pre>
+    </div>
+  </footer>
+
+<script>
+/* Payment Tri-card interactions (paste near bottom of page) */
+(function(){
+  function formatAcct(n){
+    const d = String(n).replace(/[^0-9]/g,'');
+    const grp = d.length > 12 ? 4 : 3;
+    return d.match(new RegExp('.{1,'+grp+'}','g')).join(' ');
+  }
+
+  document.querySelectorAll('.tri-card').forEach(card=>{
+    const pop = card.querySelector('.tri-pop');
+    const copyBtn = card.querySelector('.tri-copy');
+    const success = card.querySelector('.tri-success');
+    const terminal = card.querySelector('.tri-terminal');
+    const acctRaw = card.dataset.number || '';
+
+    // fill formatted acct in terminal if template contains ACCOUNT_NUMBER
+    if(terminal){
+      terminal.innerHTML = terminal.innerHTML.replace(/ACCOUNT_NUMBER:.*$/m, 'ACCOUNT_NUMBER: ' + formatAcct(acctRaw));
+    }
+
+    // toggle pop (click on card toggles; clicking copy won't close)
+    card.addEventListener('click', e=>{
+      if (e.target.closest('.tri-copy')) return;
+      const isShown = pop.classList.contains('show');
+      // close other pops
+      document.querySelectorAll('.tri-pop.show').forEach(p=>p.classList.remove('show'));
+      if(!isShown) pop.classList.add('show'); else pop.classList.remove('show');
+    });
+
+    // copy action
+    if(copyBtn){
+      copyBtn.addEventListener('click', async (ev)=>{
+        ev.stopPropagation();
+        try{
+          await navigator.clipboard.writeText(acctRaw);
+          success.style.display = 'block';
+          setTimeout(()=> success.style.display='none', 1400);
+        }catch(err){
+          alert('Gagal menyalin nomor. Silakan salin manual.');
+        }
+      });
+    }
+  });
+
+  // click outside closes all pops
+  document.addEventListener('click', e=>{
+    if(!e.target.closest('.tri-card')){
+      document.querySelectorAll('.tri-pop.show').forEach(p=>p.classList.remove('show'));
+    }
+  });
+})();
+</script>
+
+
+  <!-- JS -->
+  <script src="assets/js/matrix-bg.js"></script>
+  <script src="assets/js/parallax.js"></script>
+  <script src="assets/js/ui-effects.js"></script>
+  <script src="assets/js/countdown.js"></script>
+  <script src="assets/js/rsvp.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
